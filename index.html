@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./fonts/fonts.css">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/slideshow.css">
   <title>Поставщик куриной продукции</title>
 </head>
 <body class="body">
@@ -19,9 +20,7 @@
         <img class="address__svg" src="./img-general/loc.svg" alt="">
         <span>Москва, Открытое шоссе, 13с1</span>
       </a>
-      <a href="tel:+74991611151,452">+7 (499) 167-11-51, 452</a>
-      <a href="tel:+79165365359">+7 (916) 536-535-9</a>
-      <!-- <p>По будням: с 7:00 – 14:00</p> -->
+
       
     </address>
     <nav class="header__nav">
@@ -42,8 +41,7 @@
         <a class="center-header__home" href="">
           <img class="center-header__logo" src="./img-general/logo.svg" alt="Логотип"><span>МИРКУРЕЙ</span>
         </a>
-        <form action="">
-          <!-- <h2 class="search-form__fieldset-title">Город</h2> -->
+        <form>
           <label class="search-form__label">
             <span class="search-form__label-text visually-hidden"></span>
             <input
@@ -52,34 +50,96 @@
               name="city"
               class="search-form__input"
             />
-            <button class="center-header__button" type="button">Поиск</button>
+            <a href="">
+              <img class="center-header__cart" src="./img-general/cart.svg" alt="Корзина">
+            </a>
           </label>
+
         </form>
         <div class="center-header__right">
 
                 <a href="">Войти, ИМЯ</a>
+                <a href="">Регистрация</a>
 
-                <a href="">
-                  <img class="center-header__cart" src="./img-general/cart.svg" alt="Корзина">
-                </a>
+
 
         </div>
         
     </div>
   </header>
   <main class="main">
-    <div class="main__left">
-    <nav class="main__left-nav">
-      <ul>
+    <section class="main__left">
+    <nav class="main__left-nav block-in-section">
+      <ul class="main__left-nav-ul">
         <li>
-          <a href=""></a>
+          <a href="">Вся продукция</a>
+        </li>
+        <li>
+          <a href="">Натуральная продукция</a>
+        </li>
+        <li>
+          <a href="">Полуфабрикаты</a>
+        </li>
+        <li>
+          <a href="">Колбасная продукция</a>
+        </li>
+        <li>
+          <a href="">Копченая продукция</a>
+        </li>
+        <li>
+          <a href="">Продукция ХАЛЯЛЬ</a>
+        </li>
+        <li>
+          <a href="">Яйцо</a>
+        </li>
+        <li>
+          <a href="">Для переработчиков</a>
+        </li>
+        <li>
+          <a href="">Мука куриная</a>
+        </li>
+        <li>
+          <a href="">Рыба</a>
         </li>
       </ul>
     </nav>
-    </div>
-    <div class="main__general"></div>
-    <div class="main__right"></div>
+    </section>
+    <section class="main__general">
+ 
+    </section>
+    <section class="main__right">
+      <address class="main__right-address block-in-section">
+        <h2>Контакты</h2>
+        <a href="tel:+74991611151,452">+7 (499) 167-11-51, 452</a>
+        <a href="tel:+79165365359">+7 (916) 536-535-9</a>
+        <div>
+          <a target="_blank" href="https://wa.me/79055565557?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9D%D0%B0%D1%85%D0%BE%D0%B6%D1%83%D1%81%D1%8C%20%D0%BD%D0%B0%20%D0%B2%D0%B0%D1%88%D0%B5%D0%BC%20%D1%81%D0%B0%D0%B9%D1%82%D0%B5%20%D0%B8%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82..."><img src="./img-general/whatsapp.svg" alt="whatsapp" class="icons"></a>
+          <a target="_blank" href="https://t.me/+79055565557"><img src="./img-general/telegram.svg" alt="telegram" class="icons" ></a>
+        </div>
+        <p>По будням: с 7:00 – 14:00</p>
+      </address>
+      <div class="main__right-info block-in-section">
+      <div class="">
+        <img class="main__right-info-img" src="./img-general/delivery.png" alt="Доставка">
+        <h2 class="main__right-info-title">Доставка</h2>
+        <p class="main__right-info-p">Яндекс. Доставка небольших партий и до 20т отдельной фурой. <br>
+          По согласованию возможна доставка в регионы.</p>
+      </div>
+      <div>
+        <img class="main__right-info-img" src="./img-general/sklad.png" alt="Наш склад">
+        <h2 class="main__right-info-title">Наш склад</h2>
+        <p class="main__right-info-p">Ознакомьтесь с нашим ассортиментом вживую перед покупкой! Наш склад находится в Москве на территории ТД Преображенский</p>
+      </div>
+      <div>
+        <img class="main__right-info-img" src="./img-general/warranty.png" alt="Индивидуальный подход">
+        <h2 class="main__right-info-title">Индивидуальный подход</h2>
+        <p class="main__right-info-p">Мы поможем найти для вас идеальное решение, для успешного развития вашего бизнеса.
+          Наши сотрудники подберут для вас лучшее предложение.</p>
+      </div>
+      </div>
+    </section>
   </main>
   <footer></footer>
+<script src="./scripts/slideshow.js"></script>
 </body>
 </html>
